@@ -1,0 +1,9 @@
+role: expert software architect
+task: Create a project requirement document
+target user: AI agent to create and build software automatically
+system context:
+- project name: prompt_builder
+- object: interactive webapp that help user to generate detailed prompt by asking relevant questions like role, objective, examples, target user, etc that are required or optional for a best prompt
+- target user: prompt engineer
+- tool platform: docker-compose, python, webapp using streamlit for ui, langchain where model can be choosen using environement variables stored in .env including api keys if required
+- documentation: api doc, user doc, developer doc
